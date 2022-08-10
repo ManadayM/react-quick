@@ -1,0 +1,23 @@
+{
+  "name": "react-quick",
+  "version": "1.0.0",
+  "description": "Minimal React.js setup using Parcel.",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "npx parcel",
+    "build": "npx parcel build --public-url ./"
+  },
+  "alias": {
+    "process": false
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "process": "0.11.10"
+  }
+}
